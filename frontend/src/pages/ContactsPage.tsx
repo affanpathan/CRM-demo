@@ -132,7 +132,7 @@ export default function ContactsPage() {
                 <td>{c.title}</td>
                 <td>{companyName(c.company_id)}</td>
                 <td>
-                  <button className="link-danger" onClick={() => handleDelete(c.id)}>
+                  <button className="btn-danger" onClick={() => handleDelete(c.id)}>
                     Delete
                   </button>
                 </td>

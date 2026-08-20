@@ -173,6 +173,21 @@ h1 {
   text-decoration: underline;
 }
 
+.btn-danger {
+  background: var(--danger);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.4rem 0.85rem;
+}
+
+.btn-danger:hover {
+  background: #b91c1c;
+}
+
 .error {
   color: var(--danger);
   background: #fef2f2;

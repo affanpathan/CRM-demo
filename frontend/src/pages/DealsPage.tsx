@@ -171,7 +171,7 @@ export default function DealsPage() {
                 <td>{companyName(d.company_id)}</td>
                 <td>{contactName(d.contact_id)}</td>
                 <td>
-                  <button className="link-danger" onClick={() => handleDelete(d.id)}>
+                  <button className="btn-danger" onClick={() => handleDelete(d.id)}>
                     Delete
                   </button>
                 </td>
